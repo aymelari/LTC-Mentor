@@ -8,7 +8,10 @@ public class CasinoApp {
         int cavabsay= scanner.nextInt();
 
 
-        int budget =scanner.nextInt();
+        int  budget =scanner.nextInt();
+
+
+
 
          for(int i=0;i<cavabsay-1;i++) {
              if( !(SlotMachine.credit==0)){
@@ -19,6 +22,7 @@ public class CasinoApp {
                  machine1.pullLever();
 
              } else {
+
                  System.out.println(" you have  exit the game");
              }
 
