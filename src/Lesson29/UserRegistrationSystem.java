@@ -17,13 +17,13 @@ public class UserRegistrationSystem {
         String email = scan.nextLine();
         User user = new User(name, email);
 
-        for(User examp: set) {
-            if (examp.equals(user)) throw new DuplicateException(" user already exists");
+
+            if (set.contains(user)) throw new DuplicateException(" user already exists");
             else {
                 set.add(user);
                 System.out.println("user added successfully");
             }
-        }
+
     }
 
     public void display(){

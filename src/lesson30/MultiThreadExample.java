@@ -6,6 +6,7 @@ public class MultiThreadExample {
         Letter letter = new Letter();
 
 
+
         Thread numberThread=new Thread(number);
         Thread letterThread=new Thread(letter);
 
